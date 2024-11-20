@@ -1,4 +1,4 @@
-//eventEmitters is a class which is used to handle custom events
+//eventEmitters is a class which is used to handle custom events: modifier
 const eventEmitter = require('events')
 const myEmitter = new eventEmitter() ; 
 
