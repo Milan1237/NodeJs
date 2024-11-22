@@ -6,7 +6,6 @@ const app = express();
 const port = 3000 ; 
 
 const fileName = fileURLToPath(import.meta.url);
-console.log(path.dirname(fileName));
 app.set('views' , path.join(path.dirname(fileName) , 'views'));
 app.set('view engine' , 'ejs' );
 
