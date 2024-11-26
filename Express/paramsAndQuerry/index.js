@@ -44,6 +44,10 @@ app.get('/filter' , (req , res)=>{
     res.json(result) ; 
 })
 
+app.get('/redirect',(req , res)=>{
+    res.redirect('https://www.google.com/')
+})
+
 
 
 app.listen(port , ()=>{
